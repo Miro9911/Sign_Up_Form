@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="SuF.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <img src="Pic/odin-lined.png" class="odinLogo">
+            <p class="odinText">Odin</p>
+            <p class="source">Picture by <u>Teemu Paananen</u> from <u>unsplash.com</u></p>
+        </div>
+        <div class="two">
+            <h2 class="title">This is exercise for Odin project. Please sign up.</h2>
+            <div class="boxOne">
+                <div>
+                    <form>
+                        <label for="fName">First Name:</label>
+                        <br><br>
+                        <input type="text" id="fName" name="fName">
+                    </form>
+
+                    <form>
+                        <label for="lName">Last Name:</label>
+                        <br><br>
+                        <input type="text" id="lName" name="lName">
+                    </form>
+                </div>
+
+                <div>
+                    <form>
+                        <label for="email">EMAIL:</label>
+                        <br><br>
+                        <input type="text" id="email" name="email">
+                    </form>
+
+                     <form>
+                        <label for="phoneNumber">Phone Number:</label>
+                        <br><br>
+                        <input type="number" id="phoneNumber" name="phoneNumber">
+                    </form>
+                </div>
+
+                <div>
+                    <form>
+                        <label for="password">Password:</label>
+                        <br><br>
+                        <input type="text" id="password" name="password" onkeyup='Confer();'>
+                    </form>
+
+                     <form>
+                        <label for="conferPassword">Confer Password:</label>
+                        <br><br>
+                        <input type="text" id="conferPassword" name="conferPassword" onkeyup='Confer();'>
+                        <br>
+                        <span id='message'></span>
+                    </form>
+                </div>
+
+                <button>Create Account</button>
+                <br>
+                <button class="logIn">Log in</button>
+
+            </div>
+        </div>
+    </div>
+    
+    <script src="SuF.js"></script>
+</body>
+</html>

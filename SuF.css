@@ -1,0 +1,96 @@
+body {
+    background-image: url(Pic/teemu-paananen-OOE4xAnBhKo-unsplash.jpg);
+    width: 100vh;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 890px;
+    width: calc(145vh - 70px);
+    margin: 0;
+}
+
+.container div {
+    flex: 1 1 0%;
+    border: transparent;
+}
+
+.container .two {
+    flex: 1.75 1 0%;
+    background-color: white;
+    padding-left: 20px;
+    margin-left: 30px;
+}
+
+.odinLogo {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.odinText {
+    color: white;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 160px;
+}
+
+.title {
+    padding-left: 0px;
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+
+.boxOne {
+    width: 450px;
+}
+
+.boxOne div{
+    display: flex;
+    flex: 1 1 0%;
+    justify-content: space-between;
+}
+
+form {
+    margin-top: 25px;
+}
+
+input {
+    border: 1px solid green;
+    border-radius: 4px;
+}
+
+input:hover {
+    border-color: red;
+}
+
+input:focus {
+    background-color: wheat;
+}
+
+button {
+    width: 175px;
+    height: 45px;
+    margin-left: 5px;
+    margin-top: 100px;
+    border-radius: 8px;
+    border: transparent;
+    background-color: lightgreen;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: limegreen;
+}
+
+.logIn {
+    margin-top: 10px;
+}
+
+.source {
+    color: white;
+    padding-top: 180px;
+    padding-left: 80px;
+}
